@@ -1,0 +1,21 @@
+options:
+
+    #############################
+    # DOCUMENTATION
+    #############################
+
+  - title: Welcome!
+    url: docs.html
+    menu_type: docs
+  
+  - title: M1 - Hello Spark
+    url: docs/module1.html
+    menu_type: docs
+
+    #############################
+    # SLIDES
+    #############################
+
+  - title: M1 - Hello Spark
+    url: slides/module1.html
+    menu_type: slides
