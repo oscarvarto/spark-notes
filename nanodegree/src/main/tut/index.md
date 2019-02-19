@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Nanodegree"
+title: "Spark Notes"
 section: "home"
 position: 1
 ---
@@ -8,4 +8,4 @@ position: 1
 ## About this nanodegree
 ___
 
-Introductory contents for the AI Nanodegree.
+Introductory contents for the Spark Notes

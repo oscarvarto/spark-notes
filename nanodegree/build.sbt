@@ -6,27 +6,28 @@ enablePlugins(MicrositesPlugin)
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization := "com.intersysconsulting",
-      scalaVersion := "2.12.7",
-      version      := "0.0.0-SNAPSHOT"
+      organization := "io.oscarvarto",
+      scalaVersion := "2.12.8",
+      version      := "0.1.0"
     )),
-    name := "ai-nanodegree",
-    micrositeName := "AI Nanodegree",
-    micrositeDescription      := "AI Nanodegree",
-    micrositeBaseUrl	        := "/ai-nanodegree",
-    micrositeDocumentationUrl := "/ai-nanodegree/docs.html",
+    name := "spark-notes",
+    micrositeName := "Spark Notes",
+    micrositeDescription      := "Spark Notes",
+    micrositeBaseUrl	        := "/spark-notes",
+    micrositeDocumentationUrl := "/spark-notes/docs.html
     micrositeStaticDirectory  := (resourceDirectory in Compile).value / "microsite" / "slides",
-    micrositeAuthor           := "Intersys Consulting",
+    micrositeAuthor           := "Oscar Vargas Torres",
     micrositeGitterChannel    := true,
-    micrositeGitterChannelUrl := "IntersysConsulting/ai-nanodegree",
-    micrositeHomepage         := "https://oscarvartox.github.io/ai-nanodegree",
-    micrositeGithubOwner      := "oscarvartox",
-    micrositeGithubRepo       := "ai-nanodegree",
+    micrositeGitterChannelUrl := "oscarvarto/spark-notes",
+    micrositeHomepage         := "https://oscarvarto.github.io/spark-notes",
+    micrositeGithubOwner      := "oscarvarto",
+    micrositeGithubRepo       := "spark-notes",
     micrositeHighlightLanguages ++= Seq("haskell", "fsharp", "scala", "python", "java", "csharp"),
     micrositeCDNDirectives    := CdnDirectives(
       jsList = List(
         "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML,https://oscarvarto.github.io/learning-scala/js/mathjax-config.js"
       )
     ),
+    ghpagesBranch := "master",
     libraryDependencies += scalaTest % Test
   )

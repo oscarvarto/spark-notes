@@ -8,14 +8,14 @@ options:
     url: docs.html
     menu_type: docs
   
-  - title: M4 - Functions
-    url: docs/module4.html
+  - title: M1 - Hello Spark
+    url: docs/module1.html
     menu_type: docs
 
     #############################
     # SLIDES
     #############################
 
-  - title: M4 - Functions
-    url: slides/module4.html
+  - title: M1 - Hello Spark
+    url: slides/module1.html
     menu_type: slides

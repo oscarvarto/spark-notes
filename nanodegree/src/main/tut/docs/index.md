@@ -1,3 +1,3 @@
-# AI Nanodegree - Documentation
+# Spark Notes - Documentation
 
-Welcome to the **AI Nanodegree Documentation** site!
+Welcome to my **Personal Spark Notes**!
